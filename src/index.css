@@ -72,8 +72,41 @@ button:focus-visible {
   margin: 0;
 }
 
-.item-flex {
+.container {
+  width: 80% auto;
+  border: 2px solid black;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  margin: 2px;
+}
+
+.box {
+  margin: 2px;
+  width: 100%;
+}
+
+.box2 {
+  margin: 2px;
+  width: 100%;
+}
+
+.header-items {
+  margin: 2px;
+  border: 2px solid blue;
+}
+
+.employee-flex {
+  display: flex;
+
+  gap: 10px;
+}
+
+.employee-container {
+  margin: 2px;
+}
+.employee-image {
+  width: 25%;
+}
+.employees {
+  margin: 2px;
+  border: 2px solid red;
 }
