@@ -69,6 +69,9 @@ function App() {
           <div className="header-items">
             <Header title="Employee" />
           </div>
+          <div>
+            <EmployeeListItems />
+          </div>
         </div>
       </div>
     </>

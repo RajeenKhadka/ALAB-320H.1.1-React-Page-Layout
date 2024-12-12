@@ -73,40 +73,60 @@ button:focus-visible {
 }
 
 .container {
-  width: 80% auto;
   border: 2px solid black;
   display: flex;
   margin: 2px;
 }
 
-.box {
+.box,
+.box2,
+.header-items,
+.employee-container,
+.employees,
+.search-bar {
   margin: 2px;
-  width: 100%;
 }
 
+.box,
 .box2 {
-  margin: 2px;
   width: 100%;
 }
 
 .header-items {
-  margin: 2px;
   border: 2px solid blue;
 }
 
+.search-bar {
+  border: 2px solid green;
+}
 .employee-flex {
   display: flex;
-
   gap: 10px;
 }
 
-.employee-container {
-  margin: 2px;
-}
 .employee-image {
   width: 25%;
 }
 .employees {
-  margin: 2px;
   border: 2px solid red;
+}
+
+.employee-info {
+  margin: 25px 10px;
+}
+
+.employee-info .employee-image {
+  width: 40%;
+}
+
+.employee-info .employee-flex {
+  align-items: center;
+}
+
+.employee-description {
+  text-align: start;
+  padding: 10px 20px;
+}
+.employee-description p {
+  padding-bottom: 25px;
 }
